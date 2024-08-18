@@ -1,0 +1,86 @@
+body{
+    background-color: #f4f4f4 ; 
+    background-image: url(./pexels-fwstudio-33348-172277.jpg);
+    
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 500px; /* Set the height of the section (adjust as needed) */
+    width: 100%; /* Ensure the section covers the full width of the page */
+    position: relative;
+
+
+}
+
+header{
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E201E;
+    color: #f4f4f4;
+    line-height:5%;
+    font-size: medium;
+}
+
+#container{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+#skills-name li{
+    list-style: none;
+    background-color:#ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+     margin-right: 0px ;  
+     width: 600px;  
+     font-size: 15px;
+  
+     
+  
+
+}
+#skills-heading{
+    font-size:22px;
+    padding-left: 10px;
+
+}
+div{
+    color: #000000;
+    font:bold;
+}
+#project-heading{
+    font-size:22px;
+}
+
+#Projects{
+    
+     line-height: 25px;
+    padding-left: 10px;
+
+}
+
+ footer{
+    padding: 20px;
+    display: grid;
+    align-items: center;
+     
+    background-color: #1E201E;
+    color: #f4f4f4;
+    
+    font-size: medium;
+ }
+ img{
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    border-radius: 8px;
+    left: 750px;
+ }
